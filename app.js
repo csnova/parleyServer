@@ -44,7 +44,7 @@ app.use(express.static(path.join(__dirname, "public")));
 // Allow cors from this address
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://parleycsnova.netlify.app",
   })
 );
 
